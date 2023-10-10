@@ -6,7 +6,7 @@ let myProfile = {
     photo: "images/myprofilepic.png",
     favoriteFoods: [
       'Rice',
-      'Potato',
+      'Barbecue',
       'Burguer',
       'Matapa', 
       'Chima'
