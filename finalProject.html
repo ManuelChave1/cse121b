@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="images/currency-exchange.png" type="currency-exchange-icon">
+    <title>Final Project Currency Converter </title>
+    <link rel="stylesheet" href="./styles/finalP.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <div>
+      <input type="number" id="amount" placeholder="Enter amount" />
+      <select id="from">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="MZN">MZN</option>
+        <option value="ZAR">ZAR</option>
+      </select>
+      <span>to</span>
+      <select id="to">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="MZN">MZN</option>
+        <option value="ZAR">ZAR</option>
+          
+      </select>
+      <button id="convert">Convert</button>
+    </div>
+    <div>
+      <h2>Result:</h2>
+      <p id="result"></p>
+    </div>
+    <script src="scripts/finalP.js"></script>
+  </body>
+</html>
